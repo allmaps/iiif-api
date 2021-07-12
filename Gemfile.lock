@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/mnyrop/iiifc-theme.git
-  revision: 67f937a18608494d2f8c81ab5b55c8b9315299d4
-  branch: main
+  revision: 810f7c2808f0f2ba59f95ca2ab3a2974e92f90c1
+  branch: spec_layout_revisions
   specs:
     iiifc-theme (0.1.0)
       jekyll (>= 4.0, < 5.0)
