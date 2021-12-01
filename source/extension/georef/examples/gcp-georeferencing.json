@@ -8,14 +8,17 @@
   ],
   "motivation": "georeferencing",
   "target": {
-    "type": "Image",
-    "source": "https://cdm21033.contentdm.oclc.org/digital/iiif/krt/2891/full/full/0/default.jpg",
-    "service": [
-      {
-        "@id": "https://cdm21033.contentdm.oclc.org/digital/iiif/krt/2891",
-        "type": "ImageService2"
-      }
-    ],
+    "type": "SpecificResource",
+    "source": {
+      "@id" : "https://cdm21033.contentdm.oclc.org/digital/iiif/krt/2891/full/full/0/default.jpg",
+      "type": "Image",
+      "service": [
+        {
+          "@id": "https://cdm21033.contentdm.oclc.org/digital/iiif/krt/2891",
+          "@type": "ImageService2"
+        }
+      ]
+    },
     "selector": {
       "type": "SvgSelector",
       "value": "<svg width=\"5965\" height=\"2514\"><polygon points=\"59,84 44,2329 5932,2353 5920,103 59,84\" /></svg>"
